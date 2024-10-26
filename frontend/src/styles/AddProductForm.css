@@ -1,0 +1,60 @@
+/* components/AddProductForm.css */
+
+form {
+    max-width: 500px; /* Set maximum width for the form */
+    margin: 100px auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding inside the form */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  h2 {
+    text-align: center; /* Center the header */
+    margin-bottom: 20px; /* Space below the header */
+    color: #333; /* Dark gray color for text */
+  }
+  
+  label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+    color: #555; /* Darker gray for labels */
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 15px; /* Space below inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  input[type="number"] {
+    -moz-appearance: textfield; /* Hide number input spinners in Firefox */
+  }
+  
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none; /* Hide number input spinners in Chrome and Safari */
+  }
+  
+  button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    background-color: #007bff; /* Primary button color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger font size */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  

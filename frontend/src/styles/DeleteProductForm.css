@@ -1,0 +1,60 @@
+/* DeleteProductForm.css */
+
+/* General styles for the form */
+form {
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add padding around the form */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Round the corners of the border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    background-color: #f9f9f9; /* Set a light background color */
+  }
+  
+  /* Style for the headings */
+  h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark text color */
+  }
+  
+  /* Styles for the input fields and labels */
+  label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 10px; /* Space between labels and inputs */
+    font-weight: bold; /* Bold font for labels */
+  }
+  
+  input[type="text"] {
+    width: 100%; /* Full width of the container */
+    padding: 8px; /* Padding inside the input */
+    margin-top: 5px; /* Space between label and input */
+    border: 1px solid #ccc; /* Border around the input */
+    border-radius: 4px; /* Rounded corners for inputs */
+  }
+  
+  /* Style for the submit button */
+  button {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding for the button */
+    margin-top: 15px; /* Space above the button */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 16px; /* Increase font size */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect for the button */
+  button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  /* Optional: style for error messages (if you decide to add error handling in the future) */
+  .error {
+    color: red; /* Red color for error messages */
+    font-size: 14px; /* Slightly smaller font for errors */
+    margin-top: 10px; /* Space above error messages */
+  }
+  
